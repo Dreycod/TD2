@@ -26,12 +26,12 @@ public class ProductControllerMockTest
     private readonly ProduitController _productController;
     private readonly Mock<IDataRepository<Produit>>  _produitManager;
     private readonly IMapper _mapper;
-    
     public ProductControllerMockTest()
     {
         context = new AppDbContext();
 
         _produitManager = new Mock<IDataRepository<Produit>>();
+
         var config = new MapperConfiguration(cfg => { 
             cfg.AddProfile<MapperProfile>();
         }, new LoggerFactory());

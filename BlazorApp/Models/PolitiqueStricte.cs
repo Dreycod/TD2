@@ -1,6 +1,6 @@
 ﻿namespace BlazorApp.Models;
 
-public class PolitiqueStricte: IPolitiqueDisponibilite
+public class PolitiqueStricte: IPolitiqueStrategy
 {
     public DisponibiliteResult CalculerDisponibilite(Produit produit)
     {

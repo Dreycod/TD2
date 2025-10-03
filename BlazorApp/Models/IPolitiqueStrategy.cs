@@ -1,6 +1,6 @@
 ﻿namespace BlazorApp.Models;
 
-public interface IPolitiqueDisponibilite
+public interface IPolitiqueStrategy
 {
     DisponibiliteResult CalculerDisponibilite(Produit produit);
 }
