@@ -4,9 +4,6 @@ public class PolitiqueContext
 {
     private IPolitiqueStrategy _strategy;
 
-    public PolitiqueContext()
-    { }
-
     // Usually, the Context accepts a strategy through the constructor, but
     // also provides a setter to change it at runtime.
     public PolitiqueContext(IPolitiqueStrategy strategy)
